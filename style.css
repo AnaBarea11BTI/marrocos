@@ -1,0 +1,18 @@
+@import url(global.css);
+.home, .home2 {
+    width: 80%;
+    max-width: 900px;
+    padding: 20px;
+    border-radius: 5px;
+    flex: 1 1 45%;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.6;
+}
+    
+.img-cidade,
+.imag-bandeira {
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 10px;
+}
