@@ -1,4 +1,4 @@
-@import url(global.css);
+/*@import url(global.css);
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
@@ -16,7 +16,7 @@ body {
     border-radius: 5px;
 }
 
-/* Estilo para a seção Pontos Turísticos */
+
 .section-pontos-turisticos {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));

@@ -1,21 +1,5 @@
 @import url(global.css);
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-}
-
-.marrocos-guia {
-    width: 80%;
-    max-width: 1000px;
-    background-color: #7e2929;
-    padding: 20px;
-    border-radius: 5px;
-}
 
 .topicos {
     display: flex;
