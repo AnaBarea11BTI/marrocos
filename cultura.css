@@ -1,4 +1,3 @@
-
 @import "./global.css";
 
 
@@ -18,8 +17,8 @@ section .imagens {
     font-weight: bold;
     font-size: 3rem;
     margin-top: 10rem;
-    margin-bottom: 1rem;
-    margin-left: 20rem;
+    margin-bottom: 2rem;
+    margin-left: 21rem;
 
 }
 
@@ -31,5 +30,17 @@ section .imagens {
 
 section p {
     font-size: 2.5rem;
-    margin-left: 20rem;
+    line-height: 1.2;
+    max-width: 64.8rem;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+    width: 100%;
+    height: 100%;
+    max-width: 300rem;
+    gap: 2rem;
 }

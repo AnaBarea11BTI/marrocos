@@ -1,24 +1,33 @@
-@import url(global.css);
+@import "./global.css";
 
-
-.section-historia {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    color: #fff;
-}
-
-.section-historia .card {
-    background-color: #7e2929;
-    border: 1px solid #333;
-    border-radius: 5px;
-    padding: 15px;
-    text-align: center;
-    width: 30%;
-}
-
-.section-historia .card img {
-    width: 100%;
-    border-radius: 5px;
-    margin-bottom: 10px;
-}
+    .historia {
+        display: flex;
+        justify-content: space-around;
+        gap: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .assunto {
+        background-color: var(--fundo);
+        padding: 1rem;
+        border-radius: 0.5rem;
+        width: 30%;
+        text-align: center;
+    }
+    
+    .assunto img {
+        width: 80%;
+        border-radius: 0.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .assunto p {
+        font-size: 1.6rem;
+    }
+    
+    .resumo {
+        font-size: 2rem;
+        padding: 3rem;
+        border-radius: 0.5rem;
+    }
+    
