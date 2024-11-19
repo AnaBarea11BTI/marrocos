@@ -1,5 +1,6 @@
-/*@import url(global.css);
-body {
+@import url(global.css);
+
+/*/body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     display: flex;
@@ -48,3 +49,50 @@ body {
     font-size: 14px;
     color: #ddd;
 }
+    /*/
+
+    
+    .pontos-turisticos {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        padding: 2rem;
+    }
+    
+    .pontos {
+        background: var(--fundo);
+        border-radius: 0.8rem;
+        padding: 1.5rem;
+        text-align: center;
+        width: 30rem;
+    }
+    
+    .pontos img {
+        width: 100%;
+        height: auto;
+        border-radius: 0.8rem;
+        margin-bottom: 1rem;
+    }
+    
+    .pontos h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    
+    .pontos p {
+        font-size: 1.4rem;
+        color: var(--branco);
+    }
+    
+    .pontos-turisticos{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: center;
+    }
+    
+    .pontos {
+        flex: 1 1 calc(33.33% - 2rem); 
+        max-width: calc(33.33% - 2rem);
+    }
+    
