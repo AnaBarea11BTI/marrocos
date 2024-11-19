@@ -24,11 +24,21 @@
     .pontos h2 {
         font-size: 2rem;
         margin-bottom: 1rem;
-        color: var(--verde);
     }
     
     .pontos p {
         font-size: 1.4rem;
     }
     
+    .pontos-turisticos{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: center;
+    }
+    
+    .pontos {
+        flex: 1 1 calc(33.33% - 2rem); 
+        max-width: calc(33.33% - 2rem);
+    }
     
