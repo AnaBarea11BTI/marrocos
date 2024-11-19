@@ -1,57 +1,5 @@
-@import url(global.css);
-
-/*/body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-}
-
-.marrocos-guia {
-    width: 80%;
-    max-width: 1000px;
-    background-color: #7e2929;
-    padding: 20px;
-    border-radius: 5px;
-}
-
-
-.section-pontos-turisticos {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    color: #fff;
-}
-
-.section-pontos-turisticos .card {
-    background-color: #7e2929;
-    border: 1px solid #333;
-    border-radius: 5px;
-    padding: 15px;
-    text-align: center;
-}
-
-.section-pontos-turisticos .card img {
-    width: 100%;
-    border-radius: 5px;
-    margin-bottom: 10px;
-}
-
-.section-pontos-turisticos .card h2 {
-    color: #98b980;
-    font-size: 18px;
-    margin-bottom: 5px;
-}
-
-.section-pontos-turisticos .card p {
-    font-size: 14px;
-    color: #ddd;
-}
-    /*/
-
-    
+@import "./global.css";
+   
     .pontos-turisticos {
         display: flex;
         justify-content: center;
@@ -60,7 +8,6 @@
     }
     
     .pontos {
-        background: var(--fundo);
         border-radius: 0.8rem;
         padding: 1.5rem;
         text-align: center;
@@ -77,22 +24,11 @@
     .pontos h2 {
         font-size: 2rem;
         margin-bottom: 1rem;
+        color: var(--verde);
     }
     
     .pontos p {
         font-size: 1.4rem;
-        color: var(--branco);
     }
     
-    .pontos-turisticos{
-        display: flex;
-        flex-wrap: wrap;
-        gap: 2rem;
-        justify-content: center;
-    }
-    
-    .pontos {
-        flex: 1 1 calc(33.33% - 2rem); 
-        max-width: calc(33.33% - 2rem);
-    }
     
